@@ -73,6 +73,14 @@ const watches = [
         img: "omega/Omega-Speedmaster.png",
         url: "https://www.omegawatches.com/watches/speedmaster/"
     },
+    {
+        name: "Omega Seamaster Diver 300m",
+        dialColor: "black",
+        strapColor: "steel",
+        techLevel: "analog",
+        img: "omega/seamaster-diver-300m.png",
+        url: "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001"
+    },
     // Tag Heuer Watches
     {
         name: "Tag Heuer Carrera",
