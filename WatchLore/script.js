@@ -151,8 +151,8 @@ function displayResults(watches) {
 
     if (watches.length === 0) {
         resultsDiv.innerHTML = `
-            <p>Sorry, we couldn't find a watch that matches your preferences.</p>
-            <p>However, you might like some of the following watches:</p>
+            <p class="sorry">Sorry, we couldn't find a watch that matches your preferences.</p>
+            <p class="however">However, you might like some of the following watches:</p>
         `;
         
         
