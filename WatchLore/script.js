@@ -73,6 +73,46 @@ const watches = [
         img: "omega/Omega-Speedmaster.png",
         url: "https://www.omegawatches.com/watches/speedmaster/"
     },
+    {
+        name: "Omega Speedmaster Dark Side Of The Moon",
+        dialColor: "black",
+        strapColor: "black",
+        techLevel: "analog",
+        img: "omega/speedmaster-dark-side-of-the-moon.png",
+        url: "https://www.omegawatches.com/watches/speedmaster/"
+    },
+    {
+        name: "Omega Seamaster Diver",
+        dialColor: "black",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "omega/seamaster-diver.png",
+        url: "https://www.omegawatches.com/watches/seamaster"
+    },
+    {
+        name: "Omega Seamaster Planet Ocean",
+        dialColor: "blue",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "omega/seamaster-planet-ocean.png",
+        url: "https://www.omegawatches.com/watches/seamaster"
+    },
+    {
+        name: "Omega Constellation",
+        dialColor: "white",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "omega/constellation.png",
+        url: "https://www.omegawatches.com/watches/constellation"
+    },
+    {
+        name: "Omega De Ville Ladymatic",
+        dialColor: "white",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "omega/deville-ladymatic-png",
+        url: "https://www.omegawatches.com/watches/de-ville"
+    },
     // Tag Heuer Watches
     {
         name: "Tag Heuer Carrera",
