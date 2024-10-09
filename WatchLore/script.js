@@ -79,7 +79,7 @@ const watches = [
         strapColor: "black",
         techLevel: "analog",
         img: "omega/speedmaster-dark-side-of-the-moon.png",
-        url: "https://www.omegawatches.com/watches/speedmaster/"
+        url: "https://www.omegawatches.com/watch-omega-speedmaster-dark-side-of-the-moon-co-axial-chronometer-chronograph-44-25-mm-31192445101004"
     },
     {
         name: "Omega Seamaster Diver",
@@ -87,7 +87,7 @@ const watches = [
         strapColor: "silver",
         techLevel: "analog",
         img: "omega/seamaster-diver.png",
-        url: "https://www.omegawatches.com/watches/seamaster"
+        url: "https://www.omegawatches.com/watch-omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001"
     },
     {
         name: "Omega Seamaster Planet Ocean",
@@ -95,7 +95,7 @@ const watches = [
         strapColor: "silver",
         techLevel: "analog",
         img: "omega/seamaster-planet-ocean.png",
-        url: "https://www.omegawatches.com/watches/seamaster"
+        url: "https://www.omegawatches.com/watch-omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21530462103001"
     },
     {
         name: "Omega Constellation",
@@ -103,7 +103,7 @@ const watches = [
         strapColor: "silver",
         techLevel: "analog",
         img: "omega/constellation.png",
-        url: "https://www.omegawatches.com/watches/constellation"
+        url: "https://www.omegawatches.com/watch-omega-constellation-quartz-25-mm-13110256055001"
     },
     {
         name: "Omega De Ville Ladymatic",
@@ -111,7 +111,7 @@ const watches = [
         strapColor: "silver",
         techLevel: "analog",
         img: "omega/deville-ladymatic.png",
-        url: "https://www.omegawatches.com/watches/de-ville"
+        url: "https://www.omegawatches.com/watch-omega-de-ville-ladymatic-co-axial-chronometer-34-mm-42520342055004"
     },
     // Tag Heuer Watches
     {
