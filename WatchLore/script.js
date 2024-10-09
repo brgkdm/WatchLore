@@ -110,7 +110,7 @@ const watches = [
         dialColor: "white",
         strapColor: "silver",
         techLevel: "analog",
-        img: "omega/deville-ladymatic-png",
+        img: "omega/deville-ladymatic.png",
         url: "https://www.omegawatches.com/watches/de-ville"
     },
     // Tag Heuer Watches
