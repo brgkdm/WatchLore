@@ -122,6 +122,39 @@ const watches = [
         img: "tagheuer/Tag-Heuer-Carrera.png",
         url: "https://www.tagheuer.com/us/en/watches/tag-heuer-carrera.html"
     },
+    {
+        name: "Tag Heuer Carrera Chronograph Sport",
+        dialColor: "blue",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "tagheuer/carrera-chronograph-sport.png",
+        url: "https://www.tagheuer.com/int/en/collection-carrera/carrera-chronograph-sport.html"
+    },
+    {
+        name: "Tag Heuer Aquaracer",
+        dialColor: "black",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "tagheuer/aquaracer.png",
+        url: "https://www.tagheuer.com/ca/en/collection-aquaracer/collection-aquaracer.html"
+    },
+    {
+        name: "Tag Heuer Formula 1",
+        dialColor: "black",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "tagheuer/formula1.png",
+        url: "https://www.tagheuer.com/ca/en/collection-formula-1/collection-formula1.html"
+    },
+    {
+        name: "Tag Heuer Autavia",
+        dialColor: "blue",
+        strapColor: "silver",
+        techLevel: "analog",
+        img: "tagheuer/autavia.png",
+        url: "https://www.tagheuer.com/ca/en/collection-autavia/collection-autavia.html"
+    },
+
     // Seiko Watches
     {
         name: "Seiko 5 Automatic",
