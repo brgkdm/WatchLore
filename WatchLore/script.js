@@ -199,11 +199,53 @@ document.getElementById("watchForm").addEventListener("submit", function(event) 
         return;
     }
 
-    const preferences = { dialColor, strapColor, techLevel };
-    const recommendedWatches = suggestWatches(preferences);
-    displayResults(recommendedWatches);
+    // Show loading screen with sequential messages
+    showLoadingScreen(() => {
+        const preferences = { dialColor, strapColor, techLevel };
+        const recommendedWatches = suggestWatches(preferences);
+        displayResults(recommendedWatches);
+    });
 });
 
+function showLoadingScreen(callback) {
+    const resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = ""; 
+
+    const loadingMessages = [
+        "Special Recommendations Coming Up!",
+        "Almost Done...",
+        "And...Voila!!!"
+    ];
+
+    const loadingDiv = document.createElement("div");
+    loadingDiv.className = "loading-screen";
+
+    const messageParagraph = document.createElement("p");
+    messageParagraph.className = "loading-message";
+    const spinnerDiv = document.createElement("div");
+    spinnerDiv.className = "spinner";
+
+    loadingDiv.appendChild(messageParagraph);
+    loadingDiv.appendChild(spinnerDiv);
+    resultsDiv.appendChild(loadingDiv);
+
+    let currentMessageIndex = 0;
+
+    const intervalDuration = Math.floor((Math.random() < 0.5 ? 5000 : 7000) / loadingMessages.length);
+    const interval = setInterval(() => {
+        messageParagraph.textContent = loadingMessages[currentMessageIndex];
+        currentMessageIndex++;
+
+        if (currentMessageIndex === loadingMessages.length) {
+            clearInterval(interval);
+
+            setTimeout(() => {
+                resultsDiv.innerHTML = ""; 
+                callback(); 
+            }, intervalDuration);
+        }
+    }, intervalDuration);
+}
 
 function suggestWatches(preferences) {
     return watches.filter(watch => {
