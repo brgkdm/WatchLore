@@ -1,5 +1,5 @@
 # WatchLore
-- Web page here [WatchLore](https://watchlore-ab516.web.app/)
+- Web page here [WatchLore](https://watchlore-ab516.web.app/) and [VirusTotal Results](https://www.virustotal.com/gui/domain/watchlore-ab516.web.app)
 
 Welcome to the WatchLore!
 This is a platform where users can filter, compare, 
