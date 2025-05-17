@@ -1,6 +1,7 @@
 # WatchLore
+- Web page here [WatchLore](https://watchlore-ab516.web.app/)
 
-Welcome to the WatchLore! 
+Welcome to the WatchLore!
 This is a platform where users can filter, compare, 
 and explore various watch models based on different 
 preferences, such as dial color, strap material, 
